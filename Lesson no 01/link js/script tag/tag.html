@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js via script tag</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+    }
+    p{
+        background-color: rgb(72, 161, 255);
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header> MEA - The Academy of Mechatronics </header>
+
+    <p id="file">Click this to test the script tag javascript.</p>
+    <script>
+        let header = document.getElementById("file");
+
+        header.addEventListener("click", function () {
+            alert('This is header.');
+        });
+
+    </script>
+</body>
+
+</html>
