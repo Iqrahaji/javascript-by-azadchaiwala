@@ -6,3 +6,5 @@ var topper = "Iqra";
 var x = 5;
 var y = 5;
 var z = x + y;
+
+var a = x + y + z;
