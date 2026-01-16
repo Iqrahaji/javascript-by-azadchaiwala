@@ -12,3 +12,16 @@ let vegetables = ["onion", "potato", "tomato", "garlic"];
 
 console.log(vegetables);
 console.log(typeof vegetables);
+
+//Different method of Arrays:
+
+// arrayname.pop() for removing an element from an array.
+
+vegetables.pop()
+
+// names.splice() for 
+
+vegetables.splice(0, 1) 
+
+// 0 is an index number while the 1 indicates the number of elements.
+
