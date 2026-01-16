@@ -16,3 +16,13 @@ let user = {
 
 console.log(user);
 console.log(typeof user);
+
+//parsing and converting
+
+// Obj to String
+var convertedStringFromObj = JSON.stringify(motorBike);
+console.log(motorBike);
+
+// String to Obj
+var convertedOBJFromString = JSON.parse(convertedStringFromObj);
+console.log(user);
