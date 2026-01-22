@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation - DOM</title>
+</head>
+
+<body>
+    <!-- 
+    parentNOde
+    childNode and children
+    firstChild
+    lastChild
+    previousSibling
+    nextSibling 
+    
+    .nodeName
+    .nodeType
+    
+    Type    Description
+    1       Element
+    2       Attribute
+    3       Text
+    and so on...
+    -->
+
+    <div id="container">
+        <div id="linkbox">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        let a = document.getElementById("container");
+
+        document.writeln(a.nodeName)
+        document.writeln(a.nodeType)
+        document.writeln(a.parentNode)
+        document.writeln(a.children)
+        document.writeln(a.firstChild)
+        document.writeln(a.lastChild)
+
+    </script>
+</body>
+
+</html>
