@@ -23,9 +23,9 @@
       </a>
       <br>
       <a id="xyz">
-        <i class="xyz">x</i>
-        <i class="xyz">y</i>
-        <i class="xyz">z</i>
+        <p id="elem1">x</p>
+       <p id="elem2">y</p>
+        <p id="elem3">z</p>
       </a>
       <br>
      <div id="container"></div>
@@ -34,7 +34,11 @@
         a.href = "www.facebook.com"
         a.textContent = "Facebook"
         document.getElementById("container").appendChild(a)
-
+        
+        var elem2 = document.getElementById("elem2");
+        document.getElementById("xyz").insertBefore(a, elem2);
+        document.getElementById("xyz").replaceChild(a, elem2);
+        // document.getElementById("xyz").removeChild(a)
         
     </script>
 </body>
